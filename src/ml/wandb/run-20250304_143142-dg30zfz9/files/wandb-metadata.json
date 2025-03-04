@@ -1,0 +1,31 @@
+{
+  "os":  "Linux-6.8.0-52-generic-x86_64-with-glibc2.34",
+  "python":  "CPython 3.8.16",
+  "startedAt":  "2025-03-04T13:31:42.136690Z",
+  "program":  "/home/eveneiha/ArrDetFPGA/src/ml/tcn_model.ipynb",
+  "codePath":  "src/ml/tcn_model.ipynb",
+  "git":  {
+    "remote":  "https://github.com/eveneha/ArrDetFPGA.git",
+    "commit":  "db13973cb26c0e8b2903e439a364d330e6860637"
+  },
+  "email":  "eveneha@stud.ntnu.no",
+  "root":  "/home/eveneiha/ArrDetFPGA/src/ml",
+  "host":  "eveneiha-Yoga-Slim-7-Pro-14ACH5",
+  "executable":  "/home/eveneiha/.pyenv/versions/3.8.16/bin/python",
+  "codePathLocal":  "tcn_model.ipynb",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "214398562304",
+      "used":  "181669969920"
+    }
+  },
+  "memory":  {
+    "total":  "14508924928"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  }
+}

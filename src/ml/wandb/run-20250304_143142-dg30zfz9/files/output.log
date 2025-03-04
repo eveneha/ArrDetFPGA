@@ -1,0 +1,133 @@
+/home/eveneiha/.pyenv/versions/3.8.16/lib/python3.8/site-packages/torch/nn/modules/conv.py:454: UserWarning: Defining your `__torch_function__` as a plain method is deprecated and will be an error in future, please define it as a classmethod. (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:294.)
+  return F.conv2d(input, weight, bias, self.stride,
+{'N': 0, 'S': 1, 'V': 2, 'F': 3, 'Q': 4}
+Initial class distribution: {'N': 89012, 'S': 2772, 'V': 7176, 'F': 802, 'Q': 6781}
+Applying SMOTE for class balancing...
+New class distribution after SMOTE: {'N': 89012, 'S': 89012, 'V': 89012, 'F': 89012, 'Q': 89012}
+/home/eveneiha/.pyenv/versions/3.8.16/lib/python3.8/site-packages/torch/nn/modules/conv.py:454: UserWarning: Defining your `__torch_function__` as a plain method is deprecated and will be an error in future, please define it as a classmethod. (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:294.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/eveneiha/.pyenv/versions/3.8.16/lib/python3.8/site-packages/brevitas/nn/quant_linear.py:69: UserWarning: Defining your `__torch_function__` as a plain method is deprecated and will be an error in future, please define it as a classmethod. (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:294.)
+  output_tensor = linear(x, quant_weight, quant_bias)
+Unique labels in test set: {0, 1, 2, 3, 4}
+Class Weights:  tensor([1.1234e-05, 1.1234e-05, 1.1234e-05, 1.1234e-05, 1.1234e-05])
+/home/eveneiha/.pyenv/versions/3.8.16/lib/python3.8/site-packages/torch/nn/modules/conv.py:454: UserWarning: Defining your `__torch_function__` as a plain method is deprecated and will be an error in future, please define it as a classmethod. (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:294.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/eveneiha/.pyenv/versions/3.8.16/lib/python3.8/site-packages/brevitas/nn/quant_linear.py:69: UserWarning: Defining your `__torch_function__` as a plain method is deprecated and will be an error in future, please define it as a classmethod. (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:294.)
+  output_tensor = linear(x, quant_weight, quant_bias)
+Epoch: 1/5, Batch: 0/1217, Loss: 1.6256
+Epoch: 1/5, Batch: 100/1217, Loss: 1.3975
+Epoch: 1/5, Batch: 200/1217, Loss: 1.0454
+Epoch: 1/5, Batch: 300/1217, Loss: 0.9663
+Epoch: 1/5, Batch: 400/1217, Loss: 0.8477
+Epoch: 1/5, Batch: 500/1217, Loss: 0.8736
+Epoch: 1/5, Batch: 600/1217, Loss: 0.8305
+Epoch: 1/5, Batch: 700/1217, Loss: 0.8311
+Epoch: 1/5, Batch: 800/1217, Loss: 0.8127
+Epoch: 1/5, Batch: 900/1217, Loss: 0.7118
+Epoch: 1/5, Batch: 1000/1217, Loss: 0.7532
+Epoch: 1/5, Batch: 1100/1217, Loss: 0.7264
+Epoch: 1/5, Batch: 1200/1217, Loss: 0.7328
+Epoch 1/5: Train Loss=0.9047, Val Loss=0.6677, Val Acc=0.8851
+Epoch: 2/5, Batch: 0/1217, Loss: 0.7864
+Epoch: 2/5, Batch: 100/1217, Loss: 0.6959
+Epoch: 2/5, Batch: 200/1217, Loss: 0.6432
+Epoch: 2/5, Batch: 300/1217, Loss: 0.6571
+Epoch: 2/5, Batch: 400/1217, Loss: 0.7143
+Epoch: 2/5, Batch: 500/1217, Loss: 0.6236
+Epoch: 2/5, Batch: 600/1217, Loss: 0.6730
+Epoch: 2/5, Batch: 700/1217, Loss: 0.6539
+Epoch: 2/5, Batch: 800/1217, Loss: 0.6631
+Epoch: 2/5, Batch: 900/1217, Loss: 0.5968
+Epoch: 2/5, Batch: 1000/1217, Loss: 0.5987
+Epoch: 2/5, Batch: 1100/1217, Loss: 0.6348
+Epoch: 2/5, Batch: 1200/1217, Loss: 0.6607
+Epoch 2/5: Train Loss=0.6514, Val Loss=0.6217, Val Acc=0.9131
+Epoch: 3/5, Batch: 0/1217, Loss: 0.6170
+Epoch: 3/5, Batch: 100/1217, Loss: 0.5894
+Epoch: 3/5, Batch: 200/1217, Loss: 0.6155
+Epoch: 3/5, Batch: 300/1217, Loss: 0.6280
+Epoch: 3/5, Batch: 400/1217, Loss: 0.5935
+Epoch: 3/5, Batch: 500/1217, Loss: 0.6134
+Epoch: 3/5, Batch: 600/1217, Loss: 0.6417
+Epoch: 3/5, Batch: 700/1217, Loss: 0.6231
+Epoch: 3/5, Batch: 800/1217, Loss: 0.6106
+Epoch: 3/5, Batch: 900/1217, Loss: 0.6353
+Epoch: 3/5, Batch: 1000/1217, Loss: 0.6124
+Epoch: 3/5, Batch: 1100/1217, Loss: 0.6384
+Epoch: 3/5, Batch: 1200/1217, Loss: 0.5860
+Epoch 3/5: Train Loss=0.5972, Val Loss=0.5931, Val Acc=0.9283
+Epoch: 4/5, Batch: 0/1217, Loss: 0.5964
+Epoch: 4/5, Batch: 100/1217, Loss: 0.5736
+Epoch: 4/5, Batch: 200/1217, Loss: 0.5865
+Epoch: 4/5, Batch: 300/1217, Loss: 0.5461
+Epoch: 4/5, Batch: 400/1217, Loss: 0.5757
+Epoch: 4/5, Batch: 500/1217, Loss: 0.5808
+Epoch: 4/5, Batch: 600/1217, Loss: 0.5810
+Epoch: 4/5, Batch: 700/1217, Loss: 0.5820
+Epoch: 4/5, Batch: 800/1217, Loss: 0.5613
+Epoch: 4/5, Batch: 900/1217, Loss: 0.5467
+Epoch: 4/5, Batch: 1000/1217, Loss: 0.5753
+Epoch: 4/5, Batch: 1100/1217, Loss: 0.5619
+Epoch: 4/5, Batch: 1200/1217, Loss: 0.5520
+Epoch 4/5: Train Loss=0.5765, Val Loss=0.5754, Val Acc=0.9350
+Epoch: 5/5, Batch: 0/1217, Loss: 0.5508
+Epoch: 5/5, Batch: 100/1217, Loss: 0.5913
+Epoch: 5/5, Batch: 200/1217, Loss: 0.5454
+Epoch: 5/5, Batch: 300/1217, Loss: 0.5409
+Epoch: 5/5, Batch: 400/1217, Loss: 0.5656
+Epoch: 5/5, Batch: 500/1217, Loss: 0.5616
+Epoch: 5/5, Batch: 600/1217, Loss: 0.5531
+Epoch: 5/5, Batch: 700/1217, Loss: 0.5880
+Epoch: 5/5, Batch: 800/1217, Loss: 0.5618
+Epoch: 5/5, Batch: 900/1217, Loss: 0.5646
+Epoch: 5/5, Batch: 1000/1217, Loss: 0.5341
+Epoch: 5/5, Batch: 1100/1217, Loss: 0.5408
+Epoch: 5/5, Batch: 1200/1217, Loss: 0.5257
+Epoch 5/5: Train Loss=0.5609, Val Loss=0.5552, Val Acc=0.9429
+Test Loss: 0.5564, Test Accuracy: 0.9419
+Unique values in all_targets: [0 1 2 3 4]
+Unique values in all_preds: [0 1 2 3 4]
+Classification Report:
+               precision    recall  f1-score   support
+
+           N       0.96      0.87      0.92     13352
+           S       0.91      0.95      0.93     13352
+           V       0.96      0.94      0.95     13352
+           F       0.95      0.95      0.95     13352
+           Q       0.93      0.99      0.96     13352
+
+    accuracy                           0.94     66760
+   macro avg       0.94      0.94      0.94     66760
+weighted avg       0.94      0.94      0.94     66760
+
+📊 **Total Macro F1-Score**: 0.9416
+📊 **Total Weighted F1-Score**: 0.9416
+Training Done, model weights are saved
+/tmp/ipykernel_1811592/571099523.py:2: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load('/home/eveneiha/ArrDetFPGA/src/ml/trained_models/tcn_model.pth', map_location=torch.device('cpu'))
+/tmp/ipykernel_1811592/2001014206.py:2: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load('/home/eveneiha/ArrDetFPGA/src/ml/tcn_model.pth', map_location=torch.device('cpu'))
+/home/eveneiha/.pyenv/versions/3.8.16/lib/python3.8/site-packages/brevitas/quant_tensor/int_quant_tensor.py:32: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.
+  signed = torch.tensor(signed, dtype=torch.bool)
+/home/eveneiha/.pyenv/versions/3.8.16/lib/python3.8/site-packages/brevitas/quant_tensor/int_quant_tensor.py:34: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.
+  training = torch.tensor(training, dtype=torch.bool)
+/home/eveneiha/.pyenv/versions/3.8.16/lib/python3.8/site-packages/torch/nn/modules/conv.py:454: UserWarning: Defining your `__torch_function__` as a plain method is deprecated and will be an error in future, please define it as a classmethod. (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:294.)
+  return F.conv2d(input, weight, bias, self.stride,
+/tmp/ipykernel_1811592/3210170780.py:60: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if out.size(3) > res.size(3):
+/tmp/ipykernel_1811592/3210170780.py:65: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if res.shape[2] < out.shape[2]:
+/tmp/ipykernel_1811592/3210170780.py:67: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  elif res.shape[2] > out.shape[2]:
+/home/eveneiha/.pyenv/versions/3.8.16/lib/python3.8/site-packages/brevitas/nn/quant_linear.py:69: UserWarning: Defining your `__torch_function__` as a plain method is deprecated and will be an error in future, please define it as a classmethod. (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:294.)
+  output_tensor = linear(x, quant_weight, quant_bias)
+/home/eveneiha/.pyenv/versions/3.8.16/lib/python3.8/site-packages/torch/onnx/utils.py:739: UserWarning: Constant folding - Only steps=1 can be constant folded for opset >= 10 onnx::Slice op. Constant folding not applied. (Triggered internally at ../torch/csrc/jit/passes/onnx/constant_fold.cpp:179.)
+  _C._jit_pass_onnx_graph_shape_type_inference(
+/home/eveneiha/.pyenv/versions/3.8.16/lib/python3.8/site-packages/torch/onnx/utils.py:1244: UserWarning: Constant folding - Only steps=1 can be constant folded for opset >= 10 onnx::Slice op. Constant folding not applied. (Triggered internally at ../torch/csrc/jit/passes/onnx/constant_fold.cpp:179.)
+  _C._jit_pass_onnx_graph_shape_type_inference(
+/tmp/ipykernel_1811592/3210170780.py:60: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if out.size(3) > res.size(3):
+/tmp/ipykernel_1811592/3210170780.py:65: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if res.shape[2] < out.shape[2]:
+/tmp/ipykernel_1811592/3210170780.py:67: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  elif res.shape[2] > out.shape[2]:

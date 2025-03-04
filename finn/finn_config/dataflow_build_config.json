@@ -1,0 +1,6 @@
+{
+  "output_dir": "/home/eveneiha/finn/build_pynq",
+  "target_platform": "PYNQ",
+  "synth_clk_period_ns": 20,
+  "generate_outputs": ["bitfile", "pynq_driver", "stitched_ip"]
+}
